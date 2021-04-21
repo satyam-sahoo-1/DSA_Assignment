@@ -33,16 +33,7 @@ void printPreorder(struct node* node)
 	printPreorder(node->left); 
 	printPreorder(node->right); 
 }
-/*
-struct node *search(root, a){
-	if(a==root->data){
-		return root;
-	}
-	if(a< root->data)
-		search(root->left);
-	
-}
-*/
+
 
 void main(){
 	int tree[] = {21,43,1,55,56,3,4,23,12,20};
